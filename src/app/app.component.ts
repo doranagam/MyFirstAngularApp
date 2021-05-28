@@ -9,5 +9,9 @@ import { FormControl, FormGroup } from '@angular/forms';
 })
 export class AppComponent {
   title = 'BootstrapAngularApp';
+
+  OnInit(){
+    console.log("to test GIT");
+  }
   
 }

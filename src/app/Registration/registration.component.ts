@@ -12,7 +12,7 @@ export class RegistrationComponent implements OnInit {
 
   userForm: FormGroup;
   ngOnInit() {
-    console.log("Hello");
+    console.log("To Test GIT");
     this.userForm = new FormGroup({
       firstName: new FormControl(""),
       lastname: new FormControl(""),
